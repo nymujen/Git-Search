@@ -1,0 +1,93 @@
+/* Desenvolva sua estilização aqui...*/
+body {
+    background-color: var(--color-grey-2);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 61px;
+}
+header > nav > span > button {
+    width: 84px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: var(--color-brand-2);
+    color: white;
+    border: 0px;
+}
+.back_to_home {
+    width: 169px;
+    height: 38px;
+    background-color: var(--color-grey-4);
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+}
+.back_to_home > a {
+    text-decoration: none; 
+    color: white;
+}
+
+.img_div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.img_div2 > img {
+    height: 44px;
+    width: 44px;
+    border: 2px solid var(--color-brand-2);
+    border-radius: 50%;
+}
+.name_bio > p {
+    font-size: 9px;
+    color: rgb(255, 255, 255, 0.5)
+}
+
+
+ul{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 70px;
+}
+
+ul > li {
+    list-style: none;
+    width: 381px;
+    height: 243px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 28px;
+}
+.demo_repo {
+    display: flex;
+    gap: 22px;
+}
+.demo_repo > button {
+    width: 93px;
+    height: 28px;
+    border: 1px solid white;
+    background-color: var(--color-grey-2);
+    border-radius: 4px;
+    color:white;
+}
+.demo_repo > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul > li:hover{
+    border: 2px solid white;
+}
+.demo_repo > button:hover{
+    background-color: var(--color-brand-2);
+    border: 1px solid var(--color-brand-2);
+}
