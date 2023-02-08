@@ -87,5 +87,5 @@ function email (element){
 }
 
 changeUser.addEventListener("click", function(event){
-    window.location.replace('../../index.html')
+    window.location.replace('../../../index.html')
 })

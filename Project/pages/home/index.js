@@ -24,7 +24,7 @@ form.addEventListener("submit", function(event){
             
             localStorage.setItem("repos", storageRepos) 
 
-            window.location.replace('./pages/profile/index.html')
+            window.location.replace('./Project/pages/profile/index.html')
         }else {
             modalError()
         }
